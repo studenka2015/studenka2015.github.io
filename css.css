@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gainsboro;
+    font-family: 'Consolas', 'Calibri';
+    overflow: hidden;
+}
+
+#floatIntro {
+    position: absolute;
+    margin-top: 5vh;
+    width: 100%;
+    height: 88vh;
+    background-color: black;
+    z-index: 50;
+    color: white;
+}
+
+#floatIntro-textBox p {
+    opacity: 1;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#startButton {
+    position: absolute;
+    background-color: #FFFFFF00;
+    font-family: 'Consolas', 'Calibri';
+    border-width: 1px;
+    border-color: white;
+    padding: 5px;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    width: 30vw;
+    margin-top: 15px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#floatRestart {
+    position: fixed;
+    margin-top: 5vh;
+    width: 100vw;
+    height: 88vh;
+    opacity: 0.8;
+    background-color: black;
+    z-index: 80;
+}
+
+#floatRestartButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#restartButton {
+    width: 30vw;
+    height: 30vh;
+    font-family: 'Consolas', 'Calibri';
+    color: white;
+    background-color: #FFFFFF00;
+    cursor: pointer;
+    border-width: 0;    
+    font-size: 2em;
+    animation-name: restartButton;
+    animation-duration: 1s;
+}
+
+#restartButton:active {
+    outline: none;
+    border: none;
+}
+
+@keyframes restartButton {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+#button-startAnimation {
+    background-color: red;
+    width: 15vw;
+}
+
+#head-box {
+    height: 4.5vh;
+    margin: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.5vh;
+    background-color: white;
+}
+
+#head-name {
+    text-align: center;
+    text-overflow: initial;
+    font-weight: bold;
+    font-size: 3vh;
+    color: gray;
+}
+
+#svg {
+    background-color: black;
+}
+
+#infoBox {
+    position: relative;
+    width: 70vw;
+    height: 5vh;
+    background-color: blanchedalmond;
+    margin-left: 15vw;
+}
+
+#infoBox-firstRow div {
+    display: inline-block;
+}
+
+#animationControl {
+    margin-left: 20vw;
+    padding: 0;
+    width: 40vh;
+    height: 5vh;
+    background-color: black;
+}
+
+#play {
+    background-color: black;
+    width: 5vh;
+    height: 5vh;
+    border-width: 0;
+    border-radius: 0px;
+}
+
+#play p {
+    position: absolute;
+    
+}
+
+#playButton {
+    height: 5vh;
+    width: 5vh;
+    color: white;
+    border: none;    
+    box-shadow: none;
+
+}
+
+.playControl {
+    background-color: black;
+    border: none;    
+    box-shadow: none;
+    outline: none;
+}
+
+.playControlDis {
+    opacity: 50%;
+}
+
+.pauseControl {
+    background-color: red;
+    border: none;    
+    box-shadow: none;
+    outline: none;
+}
+
+.pauseControlHuman {
+    background-color: red;
+    border: none;    
+    box-shadow: none;
+    outline: none;
+}
+
+#seek {
+    background-color: none;
+    height: 100%;
+    width: 15vh;
+    margin: auto;
+    
+}
+
+.seekControl {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: #d3d3d3;
+    outline: none;
+}
+
+.seekControl[disabled=false] {
+    box-shadow: 0px 0px 5px white;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.seekControl[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.seekControl::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: red;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+.seekControl::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: red;
+    cursor: pointer;
+}
+
+#scaleLegend {
+    position: relative;
+}
+
+#mapScale {
+    background-color: none;
+    position: absolute;
+    margin-left: 1rem;
+}
+
+#svgScale1 {
+    margin: 0;
+    position: fixed;
+}
+
+#svgScale3 {  
+    margin: 0;
+    position: fixed;
+}
+
+.scaleVisible {
+    opacity: 1;
+}
+
+.scaleHidden {
+    opacity: 0;
+}
+
+#legendButtonDiv {    
+    text-align: center;
+}
+
+#legendButton {
+    background-color: black;
+    font-family: 'Consolas', 'Calibri';
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 3vh;
+    cursor: pointer;
+    height: 4vh;
+    padding: 0 5px;
+    margin: 0px;
+}
+
+#legendButton:focus {
+    outline: none;
+    border: none;
+}
+
+#legend {
+    position: absolute;
+    opacity: 0;
+    z-index: 50;
+    position: fixed;
+    bottom: 7vh;
+    margin-left: 20vw;
+}
+
+#textInfo {
+    position: fixed;
+    margin-top: 70vh;
+    margin-left: 15vw;
+    z-index: 40;
+    width: 70vw;
+    height: 7rem;
+    overflow-y: auto;    
+    background-color: #ffffffaa;
+}
+
+#textInfo p {
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8rem;
+}
+
+#time {
+    position: fixed;
+    margin-top: 15px;    
+    margin-left: 65vw;
+    z-index: 40;
+}
+
+#clock {
+    font-family: 'Consolas';
+    background-color: white;
+    margin-left: 2rem;
+    width: 24vh;
+    font-size: 2rem;
+    text-align: center;
+}

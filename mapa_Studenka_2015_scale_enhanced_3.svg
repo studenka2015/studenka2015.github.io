@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="scale"
+   version="1.1"
+   viewBox="0 0 66.145835 13.229166"
+   height="50"
+   width="250">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-283.77085)"
+     id="layer1">
+    <g
+       transform="translate(0,5.5751488)"
+       id="g936">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.35268959;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 2.5176383,280.15433 H 47.732312"
+         id="path921" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.35268959;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 2.5176383,282.62377 v -2.46944"
+         id="path923" />
+      <path
+         id="path925"
+         d="m 47.732312,282.62377 v -2.46944"
+         style="fill:none;stroke:#000000;stroke-width:0.35268959;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.35268959;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 17.5892,281.8112 v -1.76388"
+         id="path927" />
+      <path
+         id="path929"
+         d="m 32.660762,281.76395 v -1.76388"
+         style="fill:none;stroke:#000000;stroke-width:0.35268959;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <text
+       y="296.47327"
+       x="24.300797"
+       id="text52"
+       style="font-size:7.05555534px;font-family:ArialMT;color-interpolation:linearRGB;fill:#000000;fill-opacity:1;stroke-width:0.35277775">
+      <tspan
+         rotate="0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Consolas;-inkscape-font-specification:Consolas;letter-spacing:0px;word-spacing:0px;stroke-width:0.35277775"
+         x="28.224762"
+         id="tspan50" />
+    </text>
+    <text
+       id="text871"
+       y="295.4675"
+       x="47.769047"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944466px;font-family:Consolas;-inkscape-font-specification:Consolas;stroke-width:0.26458332"
+         y="295.4675"
+         x="47.769047"
+         id="tspan869">30</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="2.6129711"
+       y="295.4675"
+       id="text875"><tspan
+         id="tspan873"
+         x="2.6129711"
+         y="295.4675"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944466px;font-family:Consolas;-inkscape-font-specification:Consolas;stroke-width:0.26458332">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="55.707085"
+       y="295.4675"
+       id="text883"><tspan
+         id="tspan881"
+         x="55.707085"
+         y="295.4675"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944466px;font-family:Consolas;-inkscape-font-specification:Consolas;stroke-width:0.26458332">m</tspan></text>
+  </g>
+</svg>
