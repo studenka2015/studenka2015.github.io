@@ -178,7 +178,7 @@ function animationMain() {
         },
         "stop3": {
             timeStampMS: 27688000, durationOfStop: 0, nickname: "padají závory",
-            text: "<p>Spouštějí se závory.</p>",
+            text: "<p>Spouštěly se závory.</p>",
             alreadyStopped: false,
         },
         "stop4": {
@@ -198,7 +198,7 @@ function animationMain() {
         },
         "stop7": {
             timeStampMS: 27709000, durationOfStop: 5000, nickname: "STŘET",
-            text: "<p>7:41:49 v rychlosti 142 km/h naráží Ex 512 Pendolino do kamionu.</p>",
+            text: "<p>7:41:49 v rychlosti 142 km/h narazilo Ex 512 Pendolino do kamionu.</p>",
             alreadyStopped: false,
         },
         "stop8": {
