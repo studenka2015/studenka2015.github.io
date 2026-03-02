@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "dependencies": {
     "animejs": "^4.2.1"
-  }
+  },
+  "overrides": {
+  "serialize-javascript": "^7.0.2"
+}
 }
